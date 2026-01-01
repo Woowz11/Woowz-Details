@@ -74,7 +74,7 @@
   ],
   "SubChips":[
     {
-      "Name":"AND",
+      "Name":"&&",
       "ID":2100033583,
       "Label":"",
       "Position":{
@@ -85,7 +85,7 @@
       "InternalData":null
     },
     {
-      "Name":"AND",
+      "Name":"&&",
       "ID":182806464,
       "Label":"",
       "Position":{
@@ -96,7 +96,7 @@
       "InternalData":null
     },
     {
-      "Name":"OR",
+      "Name":"ll",
       "ID":1057223904,
       "Label":"",
       "Position":{
@@ -107,7 +107,7 @@
       "InternalData":null
     },
     {
-      "Name":"XOR",
+      "Name":"!=",
       "ID":174957112,
       "Label":"",
       "Position":{
@@ -118,7 +118,7 @@
       "InternalData":null
     },
     {
-      "Name":"XOR",
+      "Name":"!=",
       "ID":262204683,
       "Label":"",
       "Position":{

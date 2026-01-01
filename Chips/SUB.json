@@ -74,7 +74,7 @@
   ],
   "SubChips":[
     {
-      "Name":"NOT",
+      "Name":"!",
       "ID":2140733736,
       "Label":"",
       "Position":{
@@ -85,7 +85,7 @@
       "InternalData":null
     },
     {
-      "Name":"NOT",
+      "Name":"!",
       "ID":2114499990,
       "Label":"",
       "Position":{
@@ -96,7 +96,7 @@
       "InternalData":null
     },
     {
-      "Name":"AND",
+      "Name":"&&",
       "ID":308621737,
       "Label":"",
       "Position":{
@@ -107,7 +107,7 @@
       "InternalData":null
     },
     {
-      "Name":"OR",
+      "Name":"ll",
       "ID":1061256818,
       "Label":"",
       "Position":{
@@ -118,7 +118,7 @@
       "InternalData":null
     },
     {
-      "Name":"XOR",
+      "Name":"!=",
       "ID":938374983,
       "Label":"",
       "Position":{
@@ -129,7 +129,7 @@
       "InternalData":null
     },
     {
-      "Name":"AND",
+      "Name":"&&",
       "ID":1022323254,
       "Label":"",
       "Position":{
@@ -140,7 +140,7 @@
       "InternalData":null
     },
     {
-      "Name":"XOR",
+      "Name":"!=",
       "ID":1140904490,
       "Label":"",
       "Position":{

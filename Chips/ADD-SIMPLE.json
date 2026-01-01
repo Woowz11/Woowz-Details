@@ -63,7 +63,7 @@
   ],
   "SubChips":[
     {
-      "Name":"XOR",
+      "Name":"!=",
       "ID":912902278,
       "Label":"",
       "Position":{
@@ -74,7 +74,7 @@
       "InternalData":null
     },
     {
-      "Name":"AND",
+      "Name":"&&",
       "ID":543074227,
       "Label":"",
       "Position":{

@@ -1,10 +1,10 @@
 {
   "DLSVersion": "2.1.6",
-  "Name": "200",
+  "Name": "200B",
   "NameLocation": 0,
   "ChipType": 0,
   "Size": {
-    "x": 0.575,
+    "x": 0.725,
     "y": 0.5
   },
   "Colour": {

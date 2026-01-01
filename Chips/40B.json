@@ -1,6 +1,6 @@
 {
   "DLSVersion": "2.1.6",
-  "Name": "10",
+  "Name": "40B",
   "NameLocation": 0,
   "ChipType": 0,
   "Size": {
@@ -16,7 +16,7 @@
   "InputPins":[],
   "OutputPins":[
     {
-      "Name":"200",
+      "Name":"40",
       "ID":71422412,
       "Position":{
         "x":5.5,
@@ -72,13 +72,13 @@
         "PinOwnerID":1191114854
       },
       "TargetPinAddress":{
-        "PinID":964748173,
+        "PinID":1855619118,
         "PinOwnerID":155121098
       },
       "ConnectionType":0,
       "ConnectedWireIndex":-1,
       "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":3.125,"y":-6.4375},{"x":3.125,"y":-5.9375},{"x":0.0,"y":0.0}]
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
     },
     {
       "SourcePinAddress":{
@@ -86,13 +86,13 @@
         "PinOwnerID":1191114854
       },
       "TargetPinAddress":{
-        "PinID":1855619118,
+        "PinID":1231216275,
         "PinOwnerID":155121098
       },
       "ConnectionType":1,
       "ConnectedWireIndex":1,
       "ConnectedWireSegmentIndex":0,
-      "Points":[{"x":3.125,"y":-6.4375},{"x":0.0,"y":0.0}]
+      "Points":[{"x":3.1875,"y":-6.4375},{"x":3.1875,"y":-6.9375},{"x":0.0,"y":0.0}]
     }
   ],
   "Displays":[]

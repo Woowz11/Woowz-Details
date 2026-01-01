@@ -1,6 +1,6 @@
 {
   "DLSVersion": "2.1.6",
-  "Name": "!ll",
+  "Name": "!II",
   "NameLocation": 0,
   "ChipType": 0,
   "Size": {
@@ -52,7 +52,7 @@
   ],
   "SubChips":[
     {
-      "Name":"ll",
+      "Name":"II",
       "ID":95741031,
       "Label":"",
       "Position":{

@@ -3,7 +3,7 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-12-31T14:38:11.907+03:00",
-  "LastSaveTime": "2026-01-01T16:23:34.107+03:00",
+  "LastSaveTime": "2026-01-01T17:34:14.080+03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 1,
@@ -15,29 +15,35 @@
   "AllCustomChipNames":[
     "!",
     "&&",
-    "ll",
-    "!ll",
+    "II",
+    "!II",
     "!=",
     "==",
-    "ADD-SIMPLE",
-    "ADD",
-    "ADD8",
-    "SUB",
-    "SUB8",
-    "MUL",
-    "MUL8",
+    "+(SIMPLE)",
+    "+",
+    "+(8)",
+    "-",
+    "-(8)",
     "&&(1-8)",
     "СМЕСТИТЬ",
-    "&&(8-8)",
-    "!&&"
+    "&&(8)",
+    "!&&",
+    "0",
+    "1",
+    "8-1",
+    "1-8",
+    "MATH(+,-)",
+    "IF",
+    "IF(8)",
+    "II(8)"
   ],
   "StarredList":[
     {
-      "Name":"I/O",
+      "Name":"DLS",
       "IsCollection":true
     },
     {
-      "Name":"M/S",
+      "Name":"I/O",
       "IsCollection":true
     },
     {
@@ -47,64 +53,33 @@
     {
       "Name":"MATH",
       "IsCollection":true
-    },
-    {
-      "Name":"&&(1-8)",
-      "IsCollection":false
-    },
-    {
-      "Name":"СМЕСТИТЬ",
-      "IsCollection":false
-    },
-    {
-      "Name":"&&(8-8)",
-      "IsCollection":false
-    },
-    {
-      "Name":"!&&",
-      "IsCollection":false
     }
   ],
   "ChipCollections":[
     {
-      "Chips":["!","&&","&&(1-8)","&&(8-8)","!&&","ll","!ll","==","!="],
+      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER","BUZZER","ROM 256×16","7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED","BUS-1","BUS-4","BUS-8","1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT","IN-4","OUT-4"],
+      "IsToggledOpen":false,
+      "Name":"DLS"
+    },
+    {
+      "Chips":["IN-1","OUT-1","1-8","IN-8","OUT-8","8-1"],
+      "IsToggledOpen":true,
+      "Name":"I/O"
+    },
+    {
+      "Chips":["0","1","!","&&","&&(1-8)","&&(8)","!&&","II","II(8)","!II","==","!=","IF","IF(8)"],
       "IsToggledOpen":true,
       "Name":"BASE"
     },
     {
-      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER","BUZZER","ROM 256×16"],
+      "Chips":["+(SIMPLE)","+","+(8)","-","-(8)","MATH(+,-)"],
       "IsToggledOpen":false,
-      "Name":"DEFAULT"
-    },
-    {
-      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
-      "IsToggledOpen":false,
-      "Name":"I/O"
-    },
-    {
-      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
-      "IsToggledOpen":false,
-      "Name":"M/S"
-    },
-    {
-      "Chips":["BUS-1","BUS-4","BUS-8"],
-      "IsToggledOpen":false,
-      "Name":"BUS"
-    },
-    {
-      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
-      "IsToggledOpen":false,
-      "Name":"DISPLAY"
+      "Name":"MATH"
     },
     {
       "Chips":["СМЕСТИТЬ"],
       "IsToggledOpen":true,
       "Name":"OTHER"
-    },
-    {
-      "Chips":["ADD-SIMPLE","ADD","ADD8","SUB","SUB8","MUL","MUL8"],
-      "IsToggledOpen":false,
-      "Name":"MATH"
     }
   ]
 }

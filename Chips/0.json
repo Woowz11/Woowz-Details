@@ -1,0 +1,33 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "0",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.37,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.0,
+    "g": 0.0,
+    "b": 0.0,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[
+    {
+      "Name":"0",
+      "ID":1720889332,
+      "Position":{
+        "x":2.375,
+        "y":0.875
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[],
+  "Wires":[],
+  "Displays":[]
+}

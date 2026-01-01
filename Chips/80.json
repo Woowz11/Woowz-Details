@@ -1,0 +1,99 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "80",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.575,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 1.0,
+    "g": 1.0,
+    "b": 1.0,
+    "a": 1
+  },
+  "InputPins":[],
+  "OutputPins":[
+    {
+      "Name":"200",
+      "ID":71422412,
+      "Position":{
+        "x":5.5,
+        "y":-6.5625
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":1
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"1-8",
+      "ID":155121098,
+      "Label":"",
+      "Position":{
+        "x":3.7975,
+        "y":-6.5625
+      },
+      "OutputPinColourInfo":[{"PinColour":7,"PinID":1155047518}],
+      "InternalData":null
+    },
+    {
+      "Name":"1",
+      "ID":1191114854,
+      "Label":"",
+      "Position":{
+        "x":2.68,
+        "y":-6.4375
+      },
+      "OutputPinColourInfo":[{"PinColour":7,"PinID":1398446569}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":1155047518,
+        "PinOwnerID":155121098
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":71422412
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1398446569,
+        "PinOwnerID":1191114854
+      },
+      "TargetPinAddress":{
+        "PinID":1189951148,
+        "PinOwnerID":155121098
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":3.1875,"y":-6.4375},{"x":3.1875,"y":-6.6875},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":1398446569,
+        "PinOwnerID":1191114854
+      },
+      "TargetPinAddress":{
+        "PinID":694372355,
+        "PinOwnerID":155121098
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":1,
+      "ConnectedWireSegmentIndex":1,
+      "Points":[{"x":3.1875,"y":-6.6875},{"x":3.1875,"y":-7.1875},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[]
+}

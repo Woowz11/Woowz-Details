@@ -1,0 +1,133 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "TENTHS DIGITAL",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.7,
+    "y": 2.25
+  },
+  "Colour": {
+    "r": 0.329139262,
+    "g": 0.43356514,
+    "b": 0.465740383,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"V",
+      "ID":644514614,
+      "Position":{
+        "x":-1.125,
+        "y":-9.5625
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":1
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"0",
+      "ID":582608292,
+      "Position":{
+        "x":6.0,
+        "y":-7.4375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"1",
+      "ID":1617542018,
+      "Position":{
+        "x":6.0,
+        "y":-8.0
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"2",
+      "ID":864175961,
+      "Position":{
+        "x":6.0,
+        "y":-8.5625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1180951131,
+      "Position":{
+        "x":6.0,
+        "y":-9.1875
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1724592253,
+      "Position":{
+        "x":6.0,
+        "y":-9.8125
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":966030695,
+      "Position":{
+        "x":6.0,
+        "y":-10.375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1004909667,
+      "Position":{
+        "x":6.0,
+        "y":-10.9375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1405975519,
+      "Position":{
+        "x":6.0,
+        "y":-11.5
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":31616635,
+      "Position":{
+        "x":6.0,
+        "y":-12.0625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[],
+  "Wires":[],
+  "Displays":[]
+}

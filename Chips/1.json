@@ -29,17 +29,6 @@
   ],
   "SubChips":[
     {
-      "Name":"0",
-      "ID":1736005037,
-      "Label":"",
-      "Position":{
-        "x":0.555,
-        "y":1.0
-      },
-      "OutputPinColourInfo":[{"PinColour":0,"PinID":1720889332}],
-      "InternalData":null
-    },
-    {
       "Name":"!",
       "ID":1085074367,
       "Label":"",
@@ -60,20 +49,6 @@
       "TargetPinAddress":{
         "PinID":0,
         "PinOwnerID":1398446569
-      },
-      "ConnectionType":0,
-      "ConnectedWireIndex":-1,
-      "ConnectedWireSegmentIndex":-1,
-      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
-    },
-    {
-      "SourcePinAddress":{
-        "PinID":1720889332,
-        "PinOwnerID":1736005037
-      },
-      "TargetPinAddress":{
-        "PinID":627904350,
-        "PinOwnerID":1085074367
       },
       "ConnectionType":0,
       "ConnectedWireIndex":-1,

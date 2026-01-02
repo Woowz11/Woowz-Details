@@ -1,9 +1,9 @@
 {
-  "ProjectName": "Детальки вувза",
+  "ProjectName": "Woowz Details",
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2025-12-31T14:38:11.907+03:00",
-  "LastSaveTime": "2026-01-01T20:32:46.896+03:00",
+  "LastSaveTime": "2026-01-02T15:41:26.353+03:00",
   "Prefs_MainPinNamesDisplayMode": 2,
   "Prefs_ChipPinNamesDisplayMode": 1,
   "Prefs_GridDisplayMode": 1,
@@ -11,7 +11,7 @@
   "Prefs_StraightWires": 0,
   "Prefs_SimPaused": false,
   "Prefs_SimTargetStepsPerSecond": 1000,
-  "Prefs_SimStepsPerClockTick": 250,
+  "Prefs_SimStepsPerClockTick": 50,
   "AllCustomChipNames":[
     "!",
     "&&",
@@ -77,7 +77,17 @@
     "9B",
     "0B",
     "TENTHS TO DIGITAL",
-    "TENTHS DIGITAL"
+    "TENTHS DIGITAL",
+    "KEYBOARD (WASD)",
+    "Display 4x2",
+    "Display 4x4",
+    "Display 8x8",
+    "KEYBOARD (0-9)",
+    "KEYBOARD (Q-M)",
+    "KEYBOARD",
+    "1-4",
+    "4-1",
+    "KEYBOARD (SPLIT)"
   ],
   "StarredList":[
     {
@@ -107,6 +117,10 @@
     {
       "Name":"GRAPHIC",
       "IsCollection":true
+    },
+    {
+      "Name":"INPUT",
+      "IsCollection":true
     }
   ],
   "ChipCollections":[
@@ -121,8 +135,8 @@
       "Name":"I/O"
     },
     {
-      "Chips":["S(1-1)","S(1-2)","S(1-3)","S(1-4)","1-8","8-1"],
-      "IsToggledOpen":false,
+      "Chips":["S(1-1)","S(1-2)","S(1-3)","S(1-4)","1-4","1-8","4-1","8-1"],
+      "IsToggledOpen":true,
       "Name":"SPLIT"
     },
     {
@@ -137,13 +151,18 @@
     },
     {
       "Chips":["+(SIMPLE)","+","+(8)","-","-(8)","MATH(+,-)","UNITS","UNITS DIGITAL","UNITS TO DIGITAL","TENTHS","TENTHS DIGITAL","TENTHS TO DIGITAL","HUNDREDTHS","HUNDREDTHS DIGITAL"],
-      "IsToggledOpen":true,
+      "IsToggledOpen":false,
       "Name":"MATH"
     },
     {
-      "Chips":["DIGITAL DISPLAY","BYTE DISPLAY"],
-      "IsToggledOpen":true,
+      "Chips":["DIGITAL DISPLAY","BYTE DISPLAY","Display 4x2","Display 4x4","Display 8x8"],
+      "IsToggledOpen":false,
       "Name":"GRAPHIC"
+    },
+    {
+      "Chips":["KEYBOARD (WASD)","KEYBOARD (0-9)","KEYBOARD (Q-M)","KEYBOARD","KEYBOARD (SPLIT)"],
+      "IsToggledOpen":false,
+      "Name":"INPUT"
     },
     {
       "Chips":[],

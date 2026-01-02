@@ -1,0 +1,301 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "Display 8x8",
+  "NameLocation": 2,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.7,
+    "y": 4.0
+  },
+  "Colour": {
+    "r": 0.345098048,
+    "g": 0.345098048,
+    "b": 0.345098048,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"В.Л 1",
+      "ID":526163598,
+      "Position":{
+        "x":-3.125,
+        "y":-2.4375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"В.Л 2",
+      "ID":47998771,
+      "Position":{
+        "x":-3.125,
+        "y":-2.9375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"В.П 1",
+      "ID":849309667,
+      "Position":{
+        "x":-0.375,
+        "y":-3.4375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"В.П 2",
+      "ID":1384887851,
+      "Position":{
+        "x":-0.375,
+        "y":-3.9375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"Н.Л 1",
+      "ID":788297979,
+      "Position":{
+        "x":-3.125,
+        "y":-4.4375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"Н.Л 2",
+      "ID":1139124128,
+      "Position":{
+        "x":-3.125,
+        "y":-4.9375
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"Н.П 1",
+      "ID":1622300692,
+      "Position":{
+        "x":-0.375,
+        "y":-5.5
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"Н.П 2",
+      "ID":3816460,
+      "Position":{
+        "x":-0.375,
+        "y":-6.0
+      },
+      "BitCount":8,
+      "Colour":7,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"Display 4x4",
+      "ID":46469110,
+      "Label":"Bottom Left",
+      "Position":{
+        "x":-1.1525,
+        "y":-4.6875
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    },
+    {
+      "Name":"Display 4x4",
+      "ID":1879726086,
+      "Label":"Top Left",
+      "Position":{
+        "x":-1.1525,
+        "y":-2.6875
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    },
+    {
+      "Name":"Display 4x4",
+      "ID":1779819588,
+      "Label":"Top Right",
+      "Position":{
+        "x":1.5975,
+        "y":-3.6875
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    },
+    {
+      "Name":"Display 4x4",
+      "ID":195968984,
+      "Label":"Bottom Right",
+      "Position":{
+        "x":1.5975,
+        "y":-5.75
+      },
+      "OutputPinColourInfo":[],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":849309667
+      },
+      "TargetPinAddress":{
+        "PinID":1061138188,
+        "PinOwnerID":1779819588
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1384887851
+      },
+      "TargetPinAddress":{
+        "PinID":89488083,
+        "PinOwnerID":1779819588
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1622300692
+      },
+      "TargetPinAddress":{
+        "PinID":1061138188,
+        "PinOwnerID":195968984
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":3816460
+      },
+      "TargetPinAddress":{
+        "PinID":89488083,
+        "PinOwnerID":195968984
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":526163598
+      },
+      "TargetPinAddress":{
+        "PinID":1061138188,
+        "PinOwnerID":1879726086
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":47998771
+      },
+      "TargetPinAddress":{
+        "PinID":89488083,
+        "PinOwnerID":1879726086
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":788297979
+      },
+      "TargetPinAddress":{
+        "PinID":1061138188,
+        "PinOwnerID":46469110
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1139124128
+      },
+      "TargetPinAddress":{
+        "PinID":89488083,
+        "PinOwnerID":46469110
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays":[
+    {
+      "SubChipID":46469110,
+      "Position":{
+        "x":-0.375,
+        "y":-0.375
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":1879726086,
+      "Position":{
+        "x":-0.375,
+        "y":0.375
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":195968984,
+      "Position":{
+        "x":0.375,
+        "y":-0.375
+      },
+      "Scale":1.0
+    },
+    {
+      "SubChipID":1779819588,
+      "Position":{
+        "x":0.375,
+        "y":0.375
+      },
+      "Scale":1.0
+    }
+  ]
+}
